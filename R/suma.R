@@ -1,10 +1,12 @@
 #' Suma
 #'
 #'Esta función suma dos números
+#'
 #' @param x número positivo para sumar
 #' @param y otro número positivo para sumar
 #'
 #' @returns vector con suma de nros positivos
+#' @export
 #'
 #' @examples
 #' suma(3,5)
