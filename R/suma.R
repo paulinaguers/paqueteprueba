@@ -1,3 +1,14 @@
+#' Suma
+#'
+#'Esta función suma dos números
+#' @param x número positivo para sumar
+#' @param y otro número positivo para sumar
+#'
+#' @returns vector con suma de nros positivos
+#'
+#' @examples
+#' suma(3,5)
+#' suma(28,75)
 suma <- function(x = 0, y = 0) {
 
   if (!is.numeric(x) || !is.numeric(y)) {
@@ -18,16 +29,4 @@ suma <- function(x = 0, y = 0) {
 }
 
 
-suma_manu <- function(x = 2, y = 4) {
-  if (!is.numeric(x) || !is.numeric(y)) {
-    cli::cli_abort(c(
-      "Los valores pasados no son muericos, no podemos ejecutar la operacion",
-      "i" = "las variables ingresada son x: {class(x)} y y: {class(y)}))"
-    ))
-  } else(x < 0 || y < 0) {
-    cli::cli_abort(
-      "Los valores pasados son negativos, no podemos ejecutar la operacion"
-    )
-  }
-    x + y
-  }
+

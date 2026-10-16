@@ -1,0 +1,34 @@
+---
+title: "Viñeta del paquete de prueba "
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup}
+devtools::load_all(".")
+```
+
+Esta es una viñeta de prueba. 
+Podemos mostrar cómo usar la función `suma()`:
+
+```{r}
+suma(2,2)
+```
+
+Luego tenemos la función `inches_to_cm()`:
+
+```{r}
+inches_to_cm(5)
+inches_to_cm(10)
+```
