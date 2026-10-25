@@ -18,4 +18,6 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    cli
+    cli,
+    testthat
+Config/testthat/edition: 3
