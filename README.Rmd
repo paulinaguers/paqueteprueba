@@ -16,9 +16,10 @@ knitr::opts_chunk$set(
 # paqueteprueba
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of paqueteprueba is to ...
+The goal of paqueteprueba is to practice how to build a R package during the course of the subject "Programacion II"
 
 ## Installation
 
